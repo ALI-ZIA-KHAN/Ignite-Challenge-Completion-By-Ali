@@ -1,0 +1,299 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    height:100vh;
+    width:100vw;
+    position:relative;
+  
+  }
+  
+  .first_box{
+    background:rgb(115, 119, 122);
+    height:80vh;
+    
+    display: block;
+  }
+  
+  
+  .top{
+    width: 70%;
+    margin:0% auto;
+    display:flex;
+    justify-content: space-between;
+    
+  }
+  
+  .bell{
+    margin-right: 4px;
+    font-size: 20px;
+  }
+  
+  .number{
+  
+    margin-left: 34%;
+    margin-top: 2%;
+    color: aliceblue;
+    padding: 2% 2%;
+  }
+  
+  
+  .nav{
+    width: 70%;
+    margin:3% auto;
+    color: whitesmoke;
+   
+    
+  }
+  .navlist{
+    list-style: none;
+   
+    display: flex;
+    flex-wrap: wrap
+  }
+  .navlist li {
+    
+    padding: 0.1% 3%;
+    font-weight: bolder;
+  }
+  
+  .links{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .navlist li a:hover{
+    
+    text-decoration: underline;
+    font-weight:bolder;
+   
+  }
+  
+  
+  .main_title{
+    width: 70%;
+    margin:3.3%  auto;
+    color:whitesmoke;
+    
+  }
+  
+  .description{
+    margin-top: 3%;
+    margin-bottom: 0%;
+    font-weight: bold;
+  }
+  input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  .searchbox{
+    width: 70%;
+    margin:2% auto;
+  }
+  
+  .location{
+    line-height: 3.5em;
+  
+  }
+  
+  input[type=text]{
+    width:50%;
+    display:inline-block;
+    border-radius: 25px;
+    padding-left:5%;
+    font-size: 1em;
+  }
+  
+
+  
+  .directions{
+    position: relative;
+    right:14%;
+    top:42%;
+    padding: 1.4% 0.6%;
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: rgb(1, 122, 254);
+  
+  }
+  .pointer{
+    position: relative;
+    top:52%;
+    left:3.5%;
+    color:rgb(66, 152, 255);
+    font-size: 28px;
+    
+     }
+  
+  
+  
+  
+  
+  
+  .second_box{
+    background:rgb(233, 232, 232);
+    display: block;
+    height: 20vh;
+  }
+  
+  .upper_box{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    
+    width: 68%;
+    height: 20vh;
+    background: rgb(0, 89, 191);
+    position: absolute;
+    top:80%;
+    right:17%;
+    transform: translateY(-50%);
+    color: aliceblue;
+    padding:4.5% 1.5% 1.5% 1.5%;
+  
+    
+   
+   
+    
+  
+  }
+  
+  .upper_box p{
+    font-size: 18px;
+    padding-left: 4%;
+    margin-left:2%;
+  }
+  
+  .upper_box i{
+    font-size: 26px;
+    padding-right: 3px;
+  }
+  
+  @media screen and (max-width:362px){
+    .upper_box{
+      margin:1% auto;
+      left:10%;
+      width: 80%;
+      text-align: center;
+    }
+  }
+
+
+
+  
+  @media screen and (max-width:900px){
+    input[type=text]{
+      width:70%;
+      display:inline-block;
+      border-radius: 25px;
+      padding-left:5%;
+    }
+    
+    .directions{
+      position: relative;
+      right:20%;
+      top:52%;
+      padding:1.2% 0.8%;
+    
+    }
+    .pointer{
+   position: relative;
+   top:52%;
+   left:5%  
+    }
+  
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width:640px){
+    input[type=text]{
+      width:65%;
+      display:inline-block;
+      border-radius: 25px;
+      padding-left:7%;
+    }
+    
+    .directions{
+      position: relative;
+      right:25%;
+      top:52%;
+      padding: 3% 1.7%;
+    
+    }
+    .pointer{
+      left:7%;
+    }
+  }
+  @media screen and (max-width:540px){
+    input[type=text]{
+      width:70%;
+      display:inline-block;
+      border-radius: 25px;
+      padding-left:9%;
+    }
+    
+    .directions{
+      position: relative;
+      left:28%;
+      top:52%;
+      padding: 4% 3%;;
+    
+    }
+    .pointer{
+      left:8.5%;
+    }
+  }
+  
+  
+  @media screen and (max-width:428px){
+    input[type=text]{
+      width:90%;
+      display:inline-block;
+      border-radius: 25px;
+      padding-left:9.5%;
+    }
+    
+    .directions{
+      position: relative;
+      left:27%;
+      top:52%;
+      padding:5%;
+    
+    }
+    .pointer{
+      left:10%;
+    }
+  }
+  
+  
+  @media screen and (max-width:362px){
+    input[type=text]{
+      width:88%;
+      display:inline-block;
+      border-radius: 25px;
+      padding-left: 10.5%;
+  
+    }
+    
+    .directions{
+      position: relative;
+      left:27%;
+      top:23%;
+      padding:5%;
+    
+    }
+  
+    .pointer{
+      position: relative;
+      bottom:40%;
+      left:11.5%  
+       }
+  }
